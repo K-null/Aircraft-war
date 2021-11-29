@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(167, 226, 71), rgb(78, 219, 189));
+}
+
+.w {
+  position: relative;
+  padding: 30px;
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+#canvas {
+  position: absolute;
+  left: 20%;
+  top: 0px;
+  display: block;
+  margin: 30px 100px;
+}
+
+.w img {
+  float: right;
+}
+
+.zzc {
+  z-index: 999;
+  position: absolute;
+  left: 20%;
+  top: 0px;
+  display: block;
+  width: 480px;
+  height: 640px;
+  margin: 30px 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.w button {
+  z-index: 9999;
+  position: absolute;
+  left: 34%;
+  top: 38%;
+  display: block;
+  width: 150px;
+  height: 65px;
+  margin: 30px 100px;
+  border: none;
+  background: url('../img/play.png');
+  background-size: cover;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.siw {
+  display: none;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-190%) translateX(-58%);
+  width: 250px;
+  height: 250px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, .5);
+  text-align: center;
+  padding: 10px;
+}
+
+.siw span:nth-child(1) {
+  text-shadow: 0 0 2px red;
+  color: yellow;
+  font-size: 33px;
+  font-family: '楷体';
+  font-weight: 700;
+}
+
+.siw p {
+  font-size: 70px;
+  text-shadow: 0 0 2px rgb(241, 238, 6);
+  color: chartreuse;
+}
+
+.siw #dw {
+  color: blueviolet;
+  font-family: '楷体';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.siw button {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, 0);
+  display: block;
+  width: 120px;
+  height: 50px;
+  border: none;
+  background: url('../img/play.png');
+  background-size: cover;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.w span:nth-child(1) {
+  z-index: 9999999;
+  color: yellow;
+  position: absolute;
+  left: 30%;
+  top: 40px;
+}
+
+.w span:nth-child(2) {
+  z-index: 9999999;
+  color: rgb(240, 240, 240);
+  position: absolute;
+  right: 33%;
+  top: 40px;
+}
